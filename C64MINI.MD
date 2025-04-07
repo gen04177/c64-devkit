@@ -13,7 +13,7 @@
 `c1541 -format "demo,01" d64 demo.d64`
 
 3. Insert your PRG file into the disk image:
-`c1541 demo.d64 -write c64-asm.prg "demo"`
+`c1541 demo.d64 -write c64-asm.prg "demo.prg"`
 
 
 ## How to Load a .d64 Disk on C64 Mini
