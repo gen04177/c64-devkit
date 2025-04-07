@@ -1,7 +1,7 @@
 CLEAN=rm
 CLEANARGS=-f
 BUILDPATH=build
-BUILD=c64-devkit.prg
+BUILD=c64-asm.prg
 SOURCEPATH=source
 SOURCE=main.asm
 COMPILERPATH=compiler/linux
@@ -27,7 +27,7 @@ TABLE3ARGS=256 80 255 0 360 60 2 1
 TABLE4=sin4.dat
 TABLE4ARGS=256 90 255 0 720 80 1 0
 
-all: luts compile crunch run
+all: luts compile crunch
 
 clean:
 	$(CLEAN) $(CLEANARGS) $(BUILDPATH)/* $(TABLESPATH)/*
@@ -44,5 +44,4 @@ compile:
 crunch:
 	$(CRUNCHERPATH)/$(CRUNCHER) $(CRUNCHERARGS) $(BUILDPATH)/$(BUILD) $(BUILDPATH)/$(BUILD)
 
-run:
-	$(EMULATORPATH)/$(EMULATOR) $(EMULATORARGS) $(BUILDPATH)/$(BUILD)
+
