@@ -1,6 +1,6 @@
-# C64 Mini
+# C64 Mini Tutorial
 
-## How to Create a D64 Disk and Add a PRG File (C64)
+## How to Create a D64 Disk and Add a PRG File
 
 ### Requirements:
 - VICE emulator installed (includes c1541 tool)
@@ -16,11 +16,11 @@
 `c1541 demo.d64 -write c64-asm.prg "demo"`
 
 
-## How to Load a .d64 Disk on THEC64 Mini
+## How to Load a .d64 Disk on C64 Mini
 
 ### Requirements:
-A USB stick formatted as FAT32
-Your demo.d64 disk image
+- A USB stick formatted as FAT32
+- Your demo.d64 disk image
 
 1. Copy the Disk Image to USB:
 Copy demo.d64 to the root of your USB stick
@@ -29,6 +29,7 @@ Copy demo.d64 to the root of your USB stick
 
 3. Load Your Program: In BASIC, type:
 `LOAD"*",8,1`
+
 `RUN`
 
 
