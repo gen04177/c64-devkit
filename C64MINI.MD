@@ -28,7 +28,9 @@ Copy demo.d64 to the root of your USB stick
 
 2. Press MENU, go to MEDIA ACCESS, and manually mount demo.d64
 
-3. Load Your Program: In BASIC, type:
+3. Load Your Program: 
+
+In BASIC, type:
 
 `LOAD"*",8,1`
 
