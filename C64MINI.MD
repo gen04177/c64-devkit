@@ -23,6 +23,7 @@
 - Your demo.d64 disk image
 
 1. Copy the Disk Image to USB:
+
 Copy demo.d64 to the root of your USB stick
 
 2. Press MENU, go to Devices, and manually mount demo.d64
