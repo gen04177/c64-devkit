@@ -7,7 +7,7 @@
 - .prg file
 
 1. Open a terminal and go to your build folder:
-`cd /opt/C64/c64-devkit/build`
+`cd /opt/c64-devkit/build`
 
 2. Create a blank D64 disk image:
 `c1541 -format "demo,01" d64 demo.d64`
