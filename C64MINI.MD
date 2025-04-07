@@ -19,7 +19,7 @@
 ## How to Load a .d64 Disk on C64 Mini
 
 ### Requirements:
-- A USB stick formatted as FAT32
+- A USB stick formatted as FAT32 (max. 32GB and max. 256 items (files and/or folders) )
 - Your demo.d64 disk image
 
 1. Copy the Disk Image to USB:
